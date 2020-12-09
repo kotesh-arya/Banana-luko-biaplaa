@@ -1,13 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+ body{
+     font-family: 'Ultra', serif;
+     text-align: center;
+     background:url(/Images/jonas-stolle-9047Ku0YaO4-unsplash.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+ }
 textarea{
-    width: 85%;
+    width: 80%;
     height:15vh;
-    display: block;
-    margin: 1rem;
+    text-align: center;
+    background-color: rgb(189, 235, 99);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 #output{
     border: 1px solid black;
-    height: 15vh;
     width: 80%;
-    margin: 1rem;
-    padding: 1rem;
+    height:15vh;
+    margin: auto;
+    background-color: rgb(189, 235, 99);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+h1{
+    color: yellow;
+    font-weight: 50;
+}
+#btn-translate{
+    background-color: wheat;
+    height: 50px;
+    width: 150px;
+  border-radius: 10px;
+}
+img{
+    width: 100%;
+    height: auto;
 }
