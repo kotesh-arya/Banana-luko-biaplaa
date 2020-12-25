@@ -2,8 +2,7 @@ var btnTranslate = document.querySelector("#btn-translate");
 var textArea = document.querySelector("textarea");
 var outputDiv = document.querySelector("#output");
 
-// var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
-
+//using the server url of the API
  var serverUrl = "https://api.funtranslations.com/translate/minion.json"
 
 
@@ -11,12 +10,12 @@ function getTranslationUrl(text) {
     return serverUrl + "?" + "text=" + text
 }
 
-
+//error handling
 function errorHandler(error){
 console.log("error occured" , error)
 console.log("There is an error occured , please try again after sometime")
 }
-
+//functioning
 
 function clickHandler() {
     // outputDiv.innerText = "text translated : " + textArea.value;
