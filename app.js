@@ -10,11 +10,7 @@ function getTranslationUrl(text) {
     return serverUrl + "?" + "text=" + text
 }
 
-//error handling
-function errorHandler(error){
-console.log("error occured" , error)
-console.log("There is an error occured , please try again after sometime")
-}
+
 //functioning
 
 function clickHandler() {
@@ -32,3 +28,20 @@ function clickHandler() {
 };
 
 btnTranslate.addEventListener("click", clickHandler);
+
+//error handling
+
+function errorHandler(error){
+    console.log("error occured" , error)
+    console.log("There is an error occured , please try again after sometime")
+    }
+
+
+
+    sampleArray = ["kotesh" , "ramesh", "ganesh"];
+    var meaning  = sampleArray[0];
+    console.log(meaning);
+
+var name = "kotesh";
+console.log(name.length);
+
